@@ -6,6 +6,21 @@ To set up this project, you will need to install the required npm packages. Run 
 npm install mysql cors dotenv express
 npm install nodemon --save-dev
 ```
+## Explanation of Installed Packages
+
+Here's a brief overview of the npm packages installed for this project and what each one does:
+
+- **mysql**: Connects your application to MySQL databases. This is essential for any operations that require storing or retrieving data from a MySQL database.
+
+- **cors**: Enables Cross-Origin Resource Sharing (CORS), allowing your server to accept requests from different domains. This is important for APIs that are accessed from various web applications.
+
+- **dotenv**: Manages environment variables, keeping your configuration separate from your code. This is crucial for protecting sensitive information such as database passwords or API keys.
+
+- **express**: Provides the framework for building web applications and APIs. It simplifies the server creation process by providing a robust set of features to develop both web and mobile applications.
+
+- **nodemon** (development only): Watches for file changes in real time and automatically restarts your server, enhancing development productivity. It is only used in development, not in production environments.
+
+
 ## Configuration
 
 ### Update `package.json`
