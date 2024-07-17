@@ -12,7 +12,7 @@ Here's a brief overview of the npm packages installed for this project and what 
 
 - **mysql**: Connects your application to MySQL databases. This is essential for any operations that require storing or retrieving data from a MySQL database.
 
-- **cors**: Enables Cross-Origin Resource Sharing (CORS), allowing your server to accept requests from different domains. This is important for APIs that are accessed from various web applications.
+- **cors**: Enables Cross-Origin Resource Sharing (CORS), essential for enabling secure, controlled access to server resources from different domains, supporting cross-domain requests while adhering to security policies.
 
 - **dotenv**: Manages environment variables, keeping your configuration separate from your code. This is crucial for protecting sensitive information such as database passwords or API keys.
 
