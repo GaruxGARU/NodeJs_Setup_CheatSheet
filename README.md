@@ -5,7 +5,7 @@ To set up this project, you will need to install the required npm packages. Run 
 ```bash
 npm install mysql cors dotenv express
 npm install nodemon --save-dev
-
+```
 
 
 ## References
