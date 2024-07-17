@@ -21,9 +21,10 @@ To configure the project for development with ES Modules and automated server re
 2. **Start Script with Nodemon:**
    Include a start script to use nodemon, which restarts the server automatically when files change, enhancing development productivity.
     ```json
-     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"},
+    "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1",
+       "start": "nodemon server.js"
+    },
     ```
 3. **Change main:**
    ```json
