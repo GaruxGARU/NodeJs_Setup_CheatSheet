@@ -1,4 +1,4 @@
-// controllers/usersController.js
+
 import connection from "./database.js"
 
 const createUser = (req, res) => {
