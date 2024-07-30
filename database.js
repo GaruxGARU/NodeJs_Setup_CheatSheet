@@ -1,5 +1,5 @@
 
-import mysql from "mysql";
+import mysql from "mysql2";
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -16,4 +16,4 @@ connection.connect(error => {
   console.log('Successfully connected to the database.');
 });
 
-module.exports = connection;
+export default connection;
